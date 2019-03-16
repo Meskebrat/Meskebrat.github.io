@@ -151,8 +151,9 @@ nav a::before{
 	width: 200px;
 	padding: 20;
 	position: absolute;
-	top: 0%;
-	left: 85%;
+	top: 25%;
+	right: 42.5%;
+	color: #0088ff;
 	background: none;
 	text-align: center;
 }
@@ -170,7 +171,7 @@ nav a::before{
 	text-align: center;
 	border: 2px solid #0088ff;
 	padding: 5px 3px;
-	width: 130px;
+	width: 200px;
 	outline: none;
 	color: white;
 	border-radius: 24px;
@@ -178,8 +179,7 @@ nav a::before{
 	font-family: sans-serif;
 }
 .cep1 input[type = "text"]:focus,.cep1 input[type  = "password"]:focus{
-	width: 160px;
-	color: #0088ff;
+	color: #2eec71;
 	border-color: #2ecc71;
 }
 .cep1 input[type = "text"]:hover,.cep1 input[type  = "password"]:hover{
@@ -194,7 +194,7 @@ nav a::before{
 	text-align: center;
 	border: 2px solid #2ecc71;
 	padding: 5px 3px;
-	width: 100px;
+	width: 150px;
 	outline: none;
 	color: white;
 	border-radius: 24px;
