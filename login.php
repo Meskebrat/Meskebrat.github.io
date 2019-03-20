@@ -28,7 +28,7 @@ if(isset($_POST['username'])){
 <!DOCTYPE html>
 <head>
 	<title>Uskoro | Login</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="Styles/style.css">
 </head>
 <body>
 	<form class="cep1" method="$_POST" action="index.html" method="post">
@@ -46,7 +46,7 @@ if(isset($_POST['username'])){
 		<div class="bar bar7"></div>
 		<div class="bar bar8"></div>
 	</div>
-	<div class="kontejner">
+	<div class="kontejner2">
 		<h6>BETA v1.0</h6>
 	</div>
 </body>
