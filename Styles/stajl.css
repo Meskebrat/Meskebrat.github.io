@@ -1,6 +1,78 @@
 body{
 	background: #131313;
 }
+.slv{
+	color: #55d6a1;
+}
+.middle{
+	position: absolute;
+	top: 3%;
+	left: 73%;
+	transform: translateY(-50%);
+	width: 6%;
+	display: flex;
+	justify-content: center;
+}
+.text{
+	color: #6699ff;
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: 900;
+	cursor: pointer;
+}
+.hidden{
+	max-width: 0;
+	opacity: 0;
+	transition: 0.5s ease-in;
+}
+.text:hover .hidden{
+	opacity: 1;
+	max-width: 1em;
+}
+.container{
+	width: 70%;
+	background: #191919;
+	border-top: 0%;
+	padding: 5px 3px;
+	border: 2px solid #0088ff;
+	border-radius: 24px;
+	border-color: #0088ff;
+	color: #0088ff;
+	margin: 0 auto;
+	color: #0088ff;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li{
+	display: inline-block;
+	margin-left: 50px;
+	position: relative;
+	text-align: center;
+}
+nav a{
+	color: #0077ff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: fantasy;
+	font-size: 20px;
+	font-weight: 900px;
+	text-align: center;
+	transition: 1s;
+	float: right;
+}
+nav a:hover{
+	color: #55d6a1;
+}
+nav a::before{
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	position: absolute;
+}
 .stb{
 	margin-top: 10px;
 	margin-left: 500px;

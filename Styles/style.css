@@ -2,7 +2,8 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	background: url(bgd.png) no-repeat;
+	background: #131313;
+	/*background: url(bgd.png) no-repeat;*/
 	color: #0088ff;
 }
 .kontejner h6{
@@ -16,10 +17,10 @@ body{
 }
 .kontejner h4{
 	font-size: 14px;
-	width: 15%;
+	width: 13%;
 	font-weight: 100px;
 	margin-right: 1%;
-	margin-top: 1%;
+	margin-top: 0%;
 }
 .kontejner::before{
 	content: '';
@@ -32,22 +33,13 @@ body{
 	transform-style: unset;
 	color: #55d6a1;
 }
-.kontejner2 h6{
-	margin-top: 13%;
-	margin-left: 48%;
-	width: 6%;
-	font-size: 15px;
-	font-weight: 300px;
-	font-family: fantasy;
-	color: #0088ff;
-}
 .rasporedpre{
 	width: 50%;
 	top: 50%;
 	right: 50%;
 }
 .slv{
-	color: #0055ff;
+	color: #55d6a1;
 }
 .middle{
 	position: absolute;
@@ -59,7 +51,7 @@ body{
 	justify-content: center;
 }
 .text{
-	color: #0088ff;
+	color: #6699ff;
 	font-size: 30px;
 	font-family: sans-serif;
 	font-weight: 900;
@@ -169,7 +161,7 @@ body{
 .container{
 	width: 70%;
 	background: #191919;
-	border-top: 5%;
+	border-top: 3%;
 	padding: 5px 3px;
 	border: 2px solid #0088ff;
 	border-radius: 24px;
@@ -222,9 +214,22 @@ nav a::before{
 	text-align: center;
 }
 .cep1 h6{
-	color: #0099ff;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-left: 38%;
+	width: 5%;
+	font-size: 30px;
+	font-weight: 300px;
 	font-family: fantasy;
-	font-weight: 500;
+	color: #0088ff;
+	transition: 0.25s;
+}
+.cep1 h6::before{
+	content: '';
+	color: #0088ff;
+}
+.cep1 h6:hover{
+	color: #55d6a1;
 }
 .cep1 input[type = "text"],.cep1 input[type  = "password"]{
 	border: 0;
@@ -262,11 +267,10 @@ nav a::before{
 }
 .cep1 input[type = "submit"]::before{
 	content: '';
-	transition: 1s;
 }
 .cep1 input[type = "submit"]:hover{
 	border: 2px solid #55d6a1;
-	color: #5dd6a1;
+	color: #0088ff;
 	border-color: #55d6a1;
 	background: #55d6a1;
 	/*background-color: #2ecc71; */
