@@ -202,6 +202,17 @@ nav a::before{
 	width: 100%;
 	position: absolute;
 }
+.head1 h4{
+	font-family: fantasy;
+	font-size: 30px;
+	color: #5dd6a1;
+	font-weight: 900px;
+	margin-top: 3%;
+	margin-left: 44%;
+}
+.head1 p{
+	margin-left: 25%;
+}
 .cep1{
 	width: 300px;
 	padding: 40px;
