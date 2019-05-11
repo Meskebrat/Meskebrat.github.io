@@ -4,15 +4,6 @@ body{
 .slv{
 	color: #55d6a1;
 }
-.middle{
-	position: absolute;
-	top: 3%;
-	left: 73%;
-	transform: translateY(-50%);
-	width: 6%;
-	display: flex;
-	justify-content: center;
-}
 .text{
 	color: #6699ff;
 	font-size: 30px;
