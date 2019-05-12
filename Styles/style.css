@@ -10,6 +10,7 @@ body{
   margin: 0;
   padding: 0;
   margin-top: 5px;
+  margin-left: 0%;
 }
 #menu li{
   list-style: none;
@@ -41,10 +42,108 @@ body{
   right: 0;
 }
 
+.download h4{
+	font-family: sans-serif;
+	color: #0099ff;
+	font-size: 20px;
+	font-weight: 700px;
+	margin-top: 20%;
+	margin-left: 15%;
+}
+
+.download p{
+	color: #ffffff;
+	text-align: center;
+	width: 200px;
+	font-size: 16px;
+	margin-top: 2%;
+	margin-left: 14.5%;
+	margin-bottom: 1%;
+}
+.download li{
+	list-style: none;
+	display: inline-block;
+}
+
+.download li a{
+	text-decoration: none;
+	position: absolute;
+	color: #0099ff;
+	left: 15%;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: sans-serif;
+	display: block;
+	overflow: hidden;
+	border: 2px solid #0099ff;
+	transition: 0.5s all;
+	padding: 14px 30px;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+.download li a::before{
+	content: '';
+}
+.download li a:hover{
+	background: #0099ff;
+	color: #fff;
+}
+
+.download1{
+	widht: 300px;
+}
+
+.download1 h4{
+	font-family: sans-serif;
+	color: #0099ff;
+	font-size: 20px;
+	font-weight: 700px;
+	margin-top: 20%;
+	margin-left: 70%;
+}
+
+.download1 p{
+	color: #ffffff;
+	text-align: center;
+	width: 200px;
+	font-size: 16px;
+	margin-top: 2%;
+	margin-left: 73.5%;
+}
+.download1 li{
+	list-style: none;
+	display: inline-block;
+}
+
+.download1 li a{
+	text-decoration: none;
+	position: absolute;
+	color: #0099ff;
+	left: 73.5%;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: sans-serif;
+	display: block;
+	overflow: hidden;
+	border: 2px solid #0099ff;
+	transition: 0.5s all;
+	padding: 14px 30px;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+.download1 li a::before{
+	content: '';
+}
+.download1 li a:hover{
+	background: #0099ff;
+	color: #fff;
+}
+
 .logo{
 	float: left;
 	margin-left: 10px;
 	margin-top: 10px; 
+	width: 10px;
 }
 
 .infotext{
