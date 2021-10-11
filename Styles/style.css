@@ -1,0 +1,273 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(bgd.png) no-repeat;
+	background-size: cover;
+	color: #0088ff;
+}
+#menu{
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+  margin-left: 0%;
+}
+#menu li{
+  list-style: none;
+  display: inline-block;
+}
+#menu li a{
+  text-decoration: none;
+  position: relative;
+  color: #0099ff;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: fantasy;
+  display: block;
+  overflow: hidden;
+  transition: 0.4s all;
+  padding: 14px 30px;
+  text-transform: uppercase;
+}
+#menu li a:before{
+  content: '';
+  width: 70px;
+  position: absolute;
+  border-bottom: 4px solid #0099ff;
+  bottom: 0;
+  right: 250px;
+  transition: 0.4s all;
+}
+#menu li a:hover:before{
+  right: 0;
+}
+
+.download h4{
+	font-family: sans-serif;
+	color: #0099ff;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700px;
+	margin-top: 14%;
+	margin-left: 0%;
+}
+
+.download p{
+	color: #ffffff;
+	text-align: center;
+	width: 200px;
+	font-size: 16px;
+	margin-top: 0%;
+	margin-left: 41%;
+	margin-bottom: 1%;
+}
+.download li{
+	list-style: none;
+	display: inline-block;
+}
+
+.download li a{
+	text-decoration: none;
+	position: absolute;
+	color: #0099ff;
+	text-align: center;
+	left: 42%;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: sans-serif;
+	display: block;
+	overflow: hidden;
+	border: 2px solid #0099ff;
+	transition: 0.5s all;
+	padding: 14px 30px;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+.download li a::before{
+	content: '';
+}
+.download li a:hover{
+	background: #0099ff;
+	color: #fff;
+}
+
+.download1 h4{
+	font-family: sans-serif;
+	color: #0099ff;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700px;
+	margin-top: 10%;
+	margin-left: 0%;
+}
+
+.download1 p{
+	color: #ffffff;
+	text-align: center;
+	width: 200px;
+	font-size: 16px;
+	margin-top: 0%;
+	margin-left: 41%;
+	margin-bottom: 1%;
+}
+.download1 li{
+	list-style: none;
+	display: inline-block;
+}
+
+.download1 li a{
+	text-decoration: none;
+	position: absolute;
+	color: #0099ff;
+	text-align: center;
+	top: 79%;
+	left: 42%;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: sans-serif;
+	display: block;
+	overflow: hidden;
+	border: 2px solid #0099ff;
+	transition: 0.5s all;
+	padding: 14px 30px;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+.download1 li a::before{
+	content: '';
+}
+.download1 li a:hover{
+	background: #0099ff;
+	color: #fff;
+}
+
+.designteam{
+	font-family: cursive;
+	font-style: uppercase;
+	text-align: center;
+	margin-top: 10%;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.logo{
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px; 
+	width: 10px;
+}
+
+.infotext{
+	color: #0099ff;
+	font-family: sans-serif;
+	margin-left: 42.5%;
+}
+
+.text{
+	color: #6699ff;
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: 900;
+	width: 10%;
+	cursor: pointer;
+}
+.hidden{
+	max-width: 0;
+	opacity: 0;
+	transition: 0.5s ease-in;
+}
+.text:hover .hidden{
+	opacity: 1;
+	max-width: 1em;
+}
+
+.midlle{
+	position: absolute;
+	top: 90%;
+	left: 47.5%;
+	border-radius: 24px;
+	transform: translateY(-50%,-50%);
+}
+
+.text{
+	margin-top: 1%;
+	margin-left: 3%;
+}
+
+.container{
+	width: 45%;
+	margin-top: 1.5%;
+	border: 2px;
+	color: #0099ff;
+	margin-left: 350px;
+}
+
+.cep1{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 25%;
+	left: 34%;
+	transform: translateY(-50%, -50%);
+	/*background: #313131;*/
+	color: #0099ff;
+	text-align: center;
+}
+.cep1 h6{
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-left: 20%;
+	width: 60%;
+	font-size: 30px;
+	font-weight: 300px;
+	font-family: fantasy;
+	color: #0099ff;
+	transition: 0.25s;
+}
+.cep1 input[type = "text"],.cep1 input[type  = "password"]{
+	border: 0;
+	background: #313131;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #0099ff;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	font-family: sans-serif;
+}
+.cep1 input[type = "text"]:focus,.cep1 input[type  = "password"]:focus{
+	color: #0077ff;
+	width: 240px;
+	border-color: #5dd6a1;
+}
+.cep1 input[type = "submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #0088ff;
+	padding: 14px 40px;
+	outline: none;
+	color: #0088ff;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.cep1 input[type = "submit"]::before{
+	content: '';
+}
+.cep1 input[type = "submit"]:hover{
+	border: 2px solid #55d6a1;
+	color: #0088ff;
+	border-color: #0099ff;
+	background: #0099ff;
+	/*background-color: #2ecc71; */
+}/*
+.cep1 input[type = "submit"]:focus{
+	background: #2ecc71;
+}*/
